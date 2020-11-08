@@ -1,0 +1,10 @@
+print('Saiba quantas letras tem o seu nome')
+nome=input('Digite seu nome ')
+esp=nome.count(' ')
+letra=nome.split()
+nmai=nome.upper()
+nmin=nome.lower()
+numeroDeLetras=len(nome)-esp
+print(nome)
+print(f'O total de letras no seu nome é: {numeroDeLetras}')
+print(f'Seu primeiro nome é: {len(letra[0])}')
